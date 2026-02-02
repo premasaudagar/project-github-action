@@ -30,6 +30,7 @@ jobs:
 
   security-check:
     runs-on: self-hosted
+    needs: Set up JDK 17
     steps:
     
     - uses: actions/checkout@v4
